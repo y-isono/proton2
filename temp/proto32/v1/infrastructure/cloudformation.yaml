@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: AWS Fargate cluster running containers in public and private subnets. Supports
+Description: AWS Fargate cluster running containers in public and private subnets. Supports3
              public facing microservices behind load balancer, private microservices, and private service discovery namespaces. Deployed resources are all tagged with defined environment name tag.
 Mappings:
   # The VPC and subnet configuration is passed in via the environment spec.
